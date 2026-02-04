@@ -3,11 +3,8 @@ package creational;
 public class Singleton {
     public static void main(String[] args) {
         SingletonClass.getInstance();
-        System.out.println("1. Constructor is called.");
         SingletonClass.getInstance();
-        System.out.println("2. Same obj is returned");
         SingletonClass.getInstance();
-        System.out.println("3. Same obj is returned");
     }
 }
 class SingletonClass{
