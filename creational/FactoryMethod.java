@@ -53,8 +53,8 @@ public class FactoryMethod {
 //      The choice is made using if statements or switch cases.
 
         PizzaFactory pizzaFactory = new MargheritaPizzaFactory();
-        Pizza pizza = pizzaFactory.createPizza();
+        pizzaFactory.createPizza();
         pizzaFactory = new PepperoniPizzaFactory();
-        pizza= pizzaFactory.createPizza();
+        pizzaFactory.createPizza();
     }
 }
